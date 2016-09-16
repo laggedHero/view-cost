@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.laggedhero.viewcost.MainActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <Button
+        android:id="@+id/overdraw_example"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/overdraw_example" />
+
+    <Button
+        android:id="@+id/hierarchy_example"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hierarchy_example" />
+
+    <Button
+        android:id="@+id/relativelayout_example"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relativelayout_example" />
+
+    <Button
+        android:id="@+id/linearlayout_example"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/linearlayout_example" />
+
+    <Button
+        android:id="@+id/constraintlayout_example"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/constraintlayout_example" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">View Cost</string>
+    <string name="example_text">Example text</string>
+    <string name="overdraw_example">Overdraw Example</string>
+    <string name="hierarchy_example">Hierarchy Example</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="relativelayout_example">RelativeLayout Example</string>
+    <string name="linearlayout_example">LinearLayout Example</string>
+    <string name="constraintlayout_example">ConstraintLayout Example</string>
+</resources>
